@@ -65,7 +65,7 @@ python log.py
 python picture.py  
 3. USBメモリを抜く．
 
-## 自力で転送する方法 ##
+## 自力で転送する方法 ###
 1. sudo mount -t vfat /dev/sda1 /mnt/usbmem/
 2. sudo cp /mnt/usbmem/移動したいファイル名 ./
 3. sudo umount /mnt/usbmem/
